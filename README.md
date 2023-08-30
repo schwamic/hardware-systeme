@@ -1,3 +1,3 @@
 # Hardware Systeme
 
-Technische Hochschule Augsburg
+Technische Hochschule Augsburg / Informatik M.Sc.
