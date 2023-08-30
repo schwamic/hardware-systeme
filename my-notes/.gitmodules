@@ -1,0 +1,3 @@
+[submodule "src/viscy-processor"]
+	path = src/viscy-processor
+	url = ssh://git@r-n-d.informatik.hs-augsburg.de:2222/2022-hwsys-1b/viscy-processor.git

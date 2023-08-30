@@ -1,0 +1,8 @@
+*.vbe
+*.vst
+*.xsc
+*.ap
+*.o
+*ghw
+*gtkw
+work-obj93.cf

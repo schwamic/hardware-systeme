@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  lab:
+    hostname: lab # container id alias
+    environment:
+      DISPLAY: $DISPLAY # x server which displays the ui
+    image: hardsys1b # docker image
+    user: 5000:5000 # uid:gid e.g. labuser:labuser (permissions)
+    working_dir: /home/labuser/mnt/workspace # root folder
+    stdin_open: true # listen to output
+    tty: true # open terminal
+    tmpfs: # volume in memory instead of filesystem
+      - /tmp
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix # volume (in memory)
+      - ./Makefile:/home/labuser/mnt/workspace/Makefile # bind mount (filesystem)
+      - ./workspace:/home/labuser/mnt/workspace # bind mount (filesystem)
+      - ./src:/home/labuser/mnt/workspace/src # bind mount (filesystem)

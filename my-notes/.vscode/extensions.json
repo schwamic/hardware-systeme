@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "davidanson.vscode-markdownlint",
+        "rjyoung.vscode-modern-vhdl-support",
+        "ms-azuretools.vscode-docker",
+        "k--kato.intellij-idea-keybindings"
+    ]
+}
