@@ -4,5 +4,5 @@ Technische Hochschule Augsburg / Informatik M.Sc.
 
 ## Projects
 
-- [JVM](./jsvm)
+- [JVM](./jvm)
 - [VISCY](./visky)
